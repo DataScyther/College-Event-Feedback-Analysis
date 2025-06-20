@@ -1,48 +1,59 @@
-Data Science & Analytics Task 2
+Data Science & Analytics Task 3
 By Future Interns
-📈 Social Media Campaign Performance Tracker
+🎓 College Event Feedback Analysis – Internship Project
 
-Track & Visualize Ad Performance Like a Pro
+✨ Use data science to improve campus life! Learn how to turn student feedback into actionable insights using real-world tools like Google Colab, pandas, and TextBlob — no coding background needed.
 
-👋 Whether you’re a marketing enthusiast, data lover, or beginner in analytics — this internship task will give you real-world exposure to how businesses evaluate their ad campaign success using performance data.
+🔍 Project Overview
+College events like tech fests, workshops, and cultural activities collect feedback — but are we using it meaningfully?
 
-🔍 About the Task
-In this task, you’ll work with simulated or exported CSV data from Instagram or Facebook Ads Manager. Your goal is to analyze campaign performance metrics and build an interactive dashboard that helps businesses answer questions like:
+In this project, interns will analyze text and rating-based feedback submitted by students after attending campus events. You’ll work with simulated or real Google Forms data (CSV) and use basic Natural Language Processing (NLP) to understand satisfaction levels and identify areas for improvement.
 
-How well did the ad campaign perform?
-Which posts or ads had the highest engagement?
-What was the Click-Through Rate (CTR) and Return on Investment (ROI)?
-What can we improve for the next campaign?
+🎯 What I did
+✅ Clean and prepare feedback data (from a Google Form export)
+✅ Analyze ratings (1–5 scale) to find patterns of satisfaction
+✅ Use NLP tools to score sentiment in comments (positive/neutral/negative)
+✅ Visualize trends with beautiful charts and graphs
+✅ Suggest improvements for future events
 
-✅ What I Learned
-Marketing Analytics Fundamentals
-Understand how digital ads are measured and optimized.
-Key Metrics Demystified
-Learn what Impressions, Reach, CTR, CPC, and ROI mean and how to use them.
-Data Visualization & Storytelling
-Create dashboards that marketing teams use to make smart decisions.
-Hands-on with Tools
-Explore both Power BI and Google Looker Studio (formerly Data Studio) to compare reporting styles.
+🧠 Skills I Gained
+Data cleaning & preparation with pandas
+Sentiment analysis using TextBlob or VADER
+Creating bar charts, pie charts, word clouds for reports
+Interpreting survey data to help make real decisions
+Working in Google Colab (no software installation!)
 
-🧰 Tools I Used
+🛠 Tools & Libraries
 Tool	Purpose
-Power BI	To build professional dashboards
-Excel or Google Sheets	For quick data cleaning and analysis
-Google Looker Studio (Optional)	Alternative dashboarding tool with easy drag & drop
-Canva (Optional)	For creatives to design mock ads to track
+Google Colab	Online coding (no setup needed)
+pandas	Data manipulation
+seaborn/matplotlib	Visualization
+TextBlob / VADER	Sentiment analysis (NLP)
 
-📁 Sample Datasets to Practice
-You can use any of the datasets below for practice. These are safe, public, and beginner-friendly:
+🗂️ Sample Dataset (CSV format)
+Use any of these or simulate your own:
 
-🔗 Facebook Ads Performance Dataset – Kaggle
-🔗 Social Media Ads – Kaggle (Click Prediction)
-🔗 Marketing Campaign Data – Kaggle
+🔗 Student Feedback Survey Responses
+🔗 Student Satisfaction Survey
+📄 Or collect data from a real Google Form:
+Ask students to rate and comment after an event.
+Export the responses as CSV.
+You’re ready to analyze!
 
-🎯 Deliverable
-You’ll submit a polished Power BI dashboard (or Google Looker Studio report) that includes:
+📊 Example Insights You Can Find
+Top 3 events with highest satisfaction
+Most common complaints from comments (via word cloud)
+Correlation between ratings and event type (workshop vs seminar)
+Which departments hosted the most-liked events
+🎥 YouTube Tutorials for Beginners (for Reference)
+📌 Google Colab for Beginners – FreeCodeCamp
+📌 Sentiment Analysis in Python – TextBlob
+📌 Plotting Data in Python (Seaborn/Matplotlib)
 
-Overview of campaign KPIs
-Insights into top-performing posts
-ROI summary
-Interactive filters (by age, region, device, etc.)
-Actionable recommendations
+📁 Final Deliverable
+✅ A clean, well-commented Jupyter Notebook (or Colab link)
+✅ A mini-report/dashboard with:
+
+Graphs of ratings
+Sentiment analysis summary
+Key recommendations for event organizers
